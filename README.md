@@ -9,7 +9,7 @@ This repository contains the code developed for a micromouse maze solving system
 4) MatPlotlib
 
 # Steps
-## 1) Input image fed to the system using camera:
+## 1) Input image live feed to the system using camera:
 
 ![IMAG2747](https://user-images.githubusercontent.com/24778913/54785699-e84b8680-4c4c-11e9-99d3-8a50f430c43f.jpg)
 <br>
@@ -41,8 +41,8 @@ The sources that were useful for the design of the algorithmic code have been pr
 
 
 # References:
-1)<a href="https://www.youtube.com/watch?v=ySN5Wnu88nE&t=199s">Computerphile</a><br>
-2)<a href="https://www.youtube.com/watch?v=aKYlikFAV4k">CodingTrain</a><br>
-3)<a href="https://medium.com/@nicholas.w.swift/easy-a-star-pathfinding-7e6689c7f7b2">Medium</a><br>
-4)<a href="https://www.raywenderlich.com/3016-introduction-to-a-pathfinding">raywenderlich</a><br>
-5)<a href="https://www.analytics-link.com/single-post/2018/09/14/Applying-the-A-Path-Finding-Algorithm-in-Python-Part-1-2D-square-grid">Analytics link</a>
+1) <a href="https://www.youtube.com/watch?v=ySN5Wnu88nE&t=199s">YouTube - 'Computerphile'</a><br>
+2) <a href="https://www.youtube.com/watch?v=aKYlikFAV4k">YouTube - 'Coding Train'</a><br>
+3) <a href="https://medium.com/@nicholas.w.swift/easy-a-star-pathfinding-7e6689c7f7b2">Medium - A* Pathfinding</a><br>
+4) <a href="https://www.raywenderlich.com/3016-introduction-to-a-pathfinding">Raywender Lich</a><br>
+5) <a href="https://www.analytics-link.com/single-post/2018/09/14/Applying-the-A-Path-Finding-Algorithm-in-Python-Part-1-2D-square-grid">Analytics Link - A* Algorithm</a>
