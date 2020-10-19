@@ -1,34 +1,46 @@
-# Maze-Solving-using-A-star-algorithm
-In this repository, I have made a maze solving system. The system takes in input of an maze using a camera. This Image is converted into a grid, then you can give the starting and the ending point and the system solves the maze using A* 
-algorithm
+# Micromouse Maze Solver (Using A-Star Algorithm)
+
+This repository contains the code developed for a micromouse maze solving system. The system takes an input of a maze map using a camera and this image is converted into a grid which in turn determines find the shortest path between the proposed points.
 
 # Requirements
 1) Python3
-2) Opencv
-3) heapq
-4) matplotlib
+2) OpenCV
+3) HeapQ
+4) MatPlotlib
 
 # Steps
-## 1) Input image using the camera
+## 1) Input image fed to the system using camera:
+
 ![IMAG2747](https://user-images.githubusercontent.com/24778913/54785699-e84b8680-4c4c-11e9-99d3-8a50f430c43f.jpg)
 <br>
 <br>
-## 2) Detect the maze using image thresholding
+## 2) Detection of the industrial maze using image thresholding:
+
 ![Screenshot from 2019-03-22 02-23-11](https://user-images.githubusercontent.com/24778913/54785762-07e2af00-4c4d-11e9-8472-08152d4930b1.png)
-## 3) Convert the image into a smaller grid (because the image size is very big)
+<br>
+<br>
+## 3) Conversion of the input image into a smaller grid (for size optimization):
+
 ![Screenshot from 2019-03-22 02-28-13](https://user-images.githubusercontent.com/24778913/54787244-22b72280-4c51-11e9-83b4-04e8021a5ee3.png)
-## 4) Take the start and the end point from the user
+<br>
+<br>
+## 4) Input for the start and the end point(s) from the end user:
+
 ![Screenshot from 2019-03-22 02-28-53](https://user-images.githubusercontent.com/24778913/54785826-33659980-4c4d-11e9-9c9f-c7e87fa48fb7.png)
-## 5) Solve the grid using A-star algorithm
-I have provided some sources from where I studied the algorithm in the references section.<br>
+<br>
+<br>
+## 5) Solution of the micromouse grid using A-Star Algorithm:
+The sources that were useful for the design of the algorithmic code have been provided in the 'References' section in document below.<br>
 ![Screenshot from 2019-03-22 02-29-04](https://user-images.githubusercontent.com/24778913/54785841-3f515b80-4c4d-11e9-87f1-57d7b7badad7.png)
+<br>
+<br>
 
-# Things to improve
-1) The process of converting a high resolution image into a grid is not accurate and is also not very efficient.<br>
-2) Plotting the result on the live camera feed.<br>
+# Upcoming Target Improvements:
+1) The process of conversion of a high resolution image into a grid is not accurate and efficient. The process to improve the accuracy and efficiency with a different approach is in progress.<br>
+2) Plotting of the result on the live camera feed is not currently implemented. The process to do the same is being worked upon.<br>
 
 
-# References 
+# References:
 1)<a href="https://www.youtube.com/watch?v=ySN5Wnu88nE&t=199s">Computerphile</a><br>
 2)<a href="https://www.youtube.com/watch?v=aKYlikFAV4k">CodingTrain</a><br>
 3)<a href="https://medium.com/@nicholas.w.swift/easy-a-star-pathfinding-7e6689c7f7b2">Medium</a><br>
